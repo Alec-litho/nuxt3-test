@@ -1,75 +1,43 @@
-# Nuxt Minimal Starter
+# Nuxt3 test task
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Запуск приложения
 
-## Setup
+### Scripts
 
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+```
+npm i
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+### Docker
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+```
+docker build -t nuxt3-test ./
 ```
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+```
+docker run --rm -it -p 3000:3000 --name nuxt3-test nuxt3-test
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Реализованные функции и обоснование:
+
+ - Авторизация с сохранением сессии в Cookie
+ - Реализация: Использование useCookie с флагами secure и httpOnly
+  - Безопасность (защита от XSS)
+  - SSR-совместимость
+
+ - Динамическая фильтрация данных
+ - Реализация: Комплексные геттеры в Pinia-хранилище
+  - Централизованное управление состоянием
+  - Высокая производительность (мемоизация)
+
+## Процесс развертывания на PROD серврере
+
+ - Настройка окружения ( Установка зависимостей на сервере )
+ - Конфигурация Docker файла
+ - Сборка приложения
+ - Настройка веб сервера ( Nginx )
+ - Запуск и мониторинг
