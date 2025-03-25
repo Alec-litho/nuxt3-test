@@ -15,7 +15,7 @@ npm run dev
 ### Docker
 
 ```
-docker build -t nuxt3-test ./
+docker build -t nuxt3-test .
 ```
 
 ```
