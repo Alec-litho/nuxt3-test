@@ -1,0 +1,90 @@
+[
+      {
+        "id": 1,
+        "name": "Ноутбук Gaming Pro",
+        "category": "Электроника",
+        "status": "active",
+        "date_created": "2024-01-15",
+        "price": 149999.99,
+        "stock": 25,
+        "brand": "TechMaster",
+        "rating": 4.8
+      },
+      {
+        "id": 2,
+        "name": "Беспроводные наушники",
+        "category": "Электроника",
+        "status": "active",
+        "date_created": "2024-02-10",
+        "price": 1999.95,
+        "stock": 0,
+        "brand": "SoundWave",
+        "rating": 4.5
+      },
+      {
+        "id": 3,
+        "name": "Умные часы Fitness X",
+        "category": "Гаджеты",
+        "status": "inactive",
+        "date_created": "2023-12-05",
+        "price": 15999.99,
+        "stock": 15,
+        "brand": "FitTech",
+        "rating": 4.2
+      },
+      {
+        "id": 4,
+        "name": "Электронная книга Reader Pro",
+        "category": "Электроника",
+        "status": "active",
+        "date_created": "2024-03-01",
+        "price": 129.99,
+        "stock": 8,
+        "brand": "BookMaster",
+        "rating": 4.7
+      },
+      {
+        "id": 5,
+        "name": "Игровая мышь RGB",
+        "category": "Комплектующие",
+        "status": "active",
+        "date_created": "2024-01-25",
+        "price": 499.99,
+        "stock": 42,
+        "brand": "GamingGear",
+        "rating": 4.6
+      },
+      {
+        "id": 6,
+        "name": "Bluetooth колонка",
+        "category": "Аксессуары",
+        "status": "active",
+        "date_created": "2024-02-18",
+        "price": 799.99,
+        "stock": 3,
+        "brand": "SoundWave",
+        "rating": 4.3
+      },
+      {
+        "id": 7,
+        "name": "Фитнес-трекер",
+        "category": "Гаджеты",
+        "status": "inactive",
+        "date_created": "2023-11-30",
+        "price": 899.99,
+        "stock": 0,
+        "brand": "FitTech",
+        "rating": 4.0
+      },
+      {
+        "id": 8,
+        "name": "Внешний SSD 1TB",
+        "category": "Накопители",
+        "status": "active",
+        "date_created": "2024-03-15",
+        "price": 1099.99,
+        "stock": 17,
+        "brand": "TechMaster",
+        "rating": 4.9
+      }
+    ]
